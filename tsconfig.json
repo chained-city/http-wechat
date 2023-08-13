@@ -1,0 +1,8 @@
+{
+  "extends": "@lough/tsconfig/typescript",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"]
+    // "types": ["@chained/http"]
+  },
+  "include": ["src"]
+}
