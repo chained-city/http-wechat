@@ -1,6 +1,6 @@
 {
   "name": "@chained/http-wechat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Http Wechat Chained.",
   "keywords": [
     "typescript",
@@ -32,6 +32,7 @@
     "prepare": "husky install",
     "lint:es": "eslint -c .eslintrc.js --ext .ts,.tsx ./",
     "lint:es-fix": "eslint --fix -c .eslintrc.js --ext .ts,.tsx ./",
+    "prepublishOnly": "npm run build",
     "build": "lough-build",
     "dev": "lough-build dev"
   },
@@ -58,6 +59,6 @@
     ]
   },
   "dependencies": {
-    "@chained/http": "^1.0.1"
+    "@chained/http": "^1.0.2"
   }
 }
